@@ -1,0 +1,22 @@
+<p>{{ mensagem }}</p>
+<a [href]="linkDoSite">Visitar o site</a>
+
+<p (click)="mudarCores()" [style.background-color]="backgroundColor" [style.color]="fontColor">
+    Texto que muda de cor
+  </p>
+
+  <select (change)="mostrarTexto($event)">
+    <option value="opcao1">Opção 1</option>
+    <option value="opcao2">Opção 2</option>
+    <option value="opcao3">Opção 3</option>
+    <option value="opcao4">Opção 4</option>
+  </select>
+  
+  <div *ngIf="textoSelecionado === 'opcao1'">Texto  Opção 1</div>
+  <div *ngIf="textoSelecionado === 'opcao2'">Texto  Opção 2</div>
+  <div *ngIf="textoSelecionado === 'opcao3'">Texto  Opção 3</div>
+  <div *ngIf="textoSelecionado === 'opcao4'">Texto  Opção 4</div>
+  
+  
+
+
