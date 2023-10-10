@@ -9,4 +9,4 @@ Mateus rebêlo Fernandes - 01559114
 Caio Henrique Guedes - 01558106
 
 
-<img src="/image 1">
+<img src="/image 1.jpeg">
